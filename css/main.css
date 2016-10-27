@@ -21,10 +21,19 @@ html {
 
 fieldset {
   border: none;
+  padding-bottom: 0;
 }
 
 h1 {
   text-decoration: underline;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .right {
+    padding-right: 1em;
+  }
+
 }
 
 *, *::before, *::after {
